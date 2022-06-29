@@ -18,6 +18,7 @@ rtps:
     receive: true
   - msg: PositionSetpointTriplet
     receive: true
+    send: true
   - msg: TelemetryStatus
     receive: true
   - msg: Timesync
@@ -60,4 +61,16 @@ rtps:
   - msg: TimesyncStatus
     send: true
   - msg: SensorCombined
+    send: true
+  - msg: VehicleGpsPosition
+    send: true
+  - msg: VehicleLocalPosition
+    send: true
+  - msg: BatteryStatus
+    send: true
+  - msg: NavigatorMissionItem
+    send: true
+  - msg: PositionControllerStatus
+    send: true
+  - msg: Px4IoStatus
     send: true
