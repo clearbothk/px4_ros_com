@@ -60,3 +60,17 @@ rtps:
     send: true
   - msg: SensorCombined
     send: true
+  - msg: VehicleGlobalPosition
+    send: true
+  - msg: VehicleLocalPosition
+    send: true
+  - msg: BatteryStatus
+    send: true
+  - msg: NavigatorMissionItem
+    send: true
+  - msg: PositionControllerStatus
+    send: true
+  - msg: Px4IoStatus
+    send: true
+  - msg: SensorGps
+    send: true
