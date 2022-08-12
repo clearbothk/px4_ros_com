@@ -74,3 +74,25 @@ rtps:
     send: true
   - msg: SensorGps
     send: true
+  - msg: ActuatorServosTrim
+    receive: true
+  - msg: ActuatorServos
+    receive: true
+  - msg: ActuatorMotors
+    receive: true
+  - msg: TestMotor
+    receive: true
+  - msg: ActuatorControls
+    receive: true
+  - base: ActuatorControls
+    msg: ActuatorControls0
+    receive: true
+  - base: ActuatorControls
+    msg: ActuatorControls1
+    receive: true
+  - base: ActuatorControls
+    msg: ActuatorControls2
+    receive: true
+  - base: ActuatorControls
+    msg: ActuatorControls3
+    receive: true
