@@ -88,14 +88,12 @@ rtps:
   - base: ActuatorControls
     msg: ActuatorControls0
     receive: true
-  - base: ActuatorControls
-    msg: ActuatorControls1
-    receive: true
     send: true
-  - base: ActuatorControls
-    msg: ActuatorControls2
-    receive: true
   - base: ActuatorControls
     msg: ActuatorControls3
     receive: true
+    send: true
+  - msg: SensorGyro
+    send: true
+  - msg: VehicleAcceleration
     send: true
