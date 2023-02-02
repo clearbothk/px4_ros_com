@@ -86,11 +86,11 @@ rtps:
     receive: true
     send: true
   - base: ActuatorControls
-    msg: ActuatorControls0
+    msg: ActuatorControls3
     receive: true
     send: true
   - base: ActuatorControls
-    msg: ActuatorControls3
+    msg: ActuatorControls0
     receive: true
     send: true
   - msg: SensorGyro
