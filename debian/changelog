@@ -1,3 +1,9 @@
+ros-foxy-clearbot-px4-ros-com (0.0.1-0focal) focal; urgency=medium
+
+  * add github action to build the debain package automatically
+
+ -- clearbot <clearbot@clearbotlaptop0>  Wed, 13 Sep 2023 12:33:55 +0800
+
 ros-foxy-clearbot-px4-ros-com (0.0.0-0focal) focal; urgency=high
 
   [ Johnny Liu ]
